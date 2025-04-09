@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "INSERT REPORT TITLE"
+  author: "INSERT NAMES"
+  favicon: "INSERT ICON FOR REPORT"
+  description: SINGLE LINE BELOW TITLE
+  keyword: "Keywords for when people are searching for report"
+  url: insert url
+  sidebar:
+    logo: sidebar picture
+    search: true
+  repo-url: url for repo
+  repo-branch: master
+  image: insert image
+
+  chapters:
+    - index.qmd
+    - datacleaning.qmd
+    - eda.qmd
+    - dataviz.qmd
+    - datadictionary.qmd
+
+format:
+  html:
+    theme:
+      - light
+    code-fold: false
+    backgroundcolor: "#FFFFFF"
+
+
+
